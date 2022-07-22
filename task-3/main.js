@@ -1,9 +1,5 @@
-const prompt = require('prompt');
-prompt.start();
-
-
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+function ters (matrix) {
+    let res = matrix.reverse().join(" ") 
+    console.log(res);
+}
+ters([92846,96841,33582,25998])
